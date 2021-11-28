@@ -3,8 +3,8 @@ An image rasterizer written in Python that uses CodeHS' Karel API.
 
 
 <p align="center" text-align="center"> <br />
-  <video width="320" height="240" controls>
-    <source src="./docs/demo.mp4?raw=true&sanitize=true" type="video/mp4">
+  <video width="400" height="400" controls>
+    <source src="./docs/demo.mp4" type="video/mp4">
     Failed to load the video. (Your browser does not support the video tag.)
   </video>
   <figcaption> <sub>
