@@ -309,7 +309,7 @@ def render_row():
         render_pixel()
         
 
-# Paints a single pixel, meaning spot or block in the grid.
+# Paints a single pixel, meaning spot or block, in the grid.
 def render_pixel():
     color_num = frame_buffer[BUFFER_INDEX]
     color_str = color_map[color_num]
