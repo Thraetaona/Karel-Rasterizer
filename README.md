@@ -27,7 +27,7 @@ For the rest of the technical details, refer to the comments inside of the sourc
 
 You could also copy-paste the contents of the 'main.py' file in the './src' folder into CodeHS' editor in assignment number 2.1.10 ("Create your UltraKarel Image!") and see the rasterizer in action.
 
-To draw a different scene, simply replace the array on lines number 127-148 (All of which start with 't.extend'.) with one of the samples provided in the 'scenes.txt' file in the './examples' folder.
+In order to draw a different scene, simply replace the array on lines number 127-148 (All of which start with 't.extend'.) with one of the samples provided in the 'scenes.txt' file in the './examples' folder.
 
 
 The source code is idomatic Python with some minor syntactic modifications to work-around CodeHS' Python interpreter bugs & limitations.
