@@ -6,15 +6,27 @@
     <strong>An image rasterizer written in Python using CodeHS' Karel API</strong>
   </p>
   
+  <h3>
+    <a href="https://codehs.com/sandbox/id/karel-rasterizer-flvHB4">Demo (With source)</a>
+    <span> | </span>
+    <a href="https://codehs.com/sandbox/id/karel-rasterizer-flvHB4/run">Demo (App)</a>
+  </h3>
+
 </div>
 
 ***
 
 # Background
 
-This (Very, very overkill) project was done for a basic assignment in the [AP Computer Science Principles](https://en.wikipedia.org/wiki/AP_Computer_Science_Principles) ("AP CSP") class where [Karel the robot dog](https://en.wikipedia.org/wiki/Karel_(programming_language)) was supposed to paint just a few blocks by a series of hard-coded steps.
+This (very, very overkill) project was done for a basic assignment in the [AP Computer Science Principles](https://en.wikipedia.org/wiki/AP_Computer_Science_Principles) ("AP CSP") class where [Karel the robot dog](https://en.wikipedia.org/wiki/Karel_(programming_language)) was supposed to paint just a few blocks by a series of hard-coded steps.
 
 It was designed to use [CodeHS](https://en.wikipedia.org/wiki/CodeHS)' Karel Python API.
+
+### Demos:
+(Note: Make sure to set the speed to maximum when running the below demos.)
+
+[Online interactive demo (Edit-able source code)](https://codehs.com/sandbox/id/karel-rasterizer-flvHB4/run) \
+[Online demo (No source code)](https://codehs.com/sandbox/id/karel-rasterizer-flvHB4)
 
 
 What made my program interesting was the way it drew these images, it first constructed a 20x20 array (Framebuffer) with a one-to-one representation of the world's grids and then painted the world according to the array onto the world; it could even "upscale" the image array for larger worlds (Such as 40x40), this works just as a monitor in real life does. (Albeit slower, which is fair considering that it is running on an already-slow interpreted programming language like Python, implemented in a poorly-optimized JavaScript emulator, inside of a browser on top of the hardware.)
