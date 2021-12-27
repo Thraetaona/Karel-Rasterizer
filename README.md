@@ -28,6 +28,8 @@ It was designed to use [CodeHS](https://en.wikipedia.org/wiki/CodeHS)' Karel Pyt
 [Online interactive demo (Edit-able source code)](https://codehs.com/sandbox/id/karel-rasterizer-flvHB4) \
 [Online demo (No source code)](https://codehs.com/sandbox/id/karel-rasterizer-flvHB4/run)
 
+In order to draw a different scene, simply replace the array on lines number 127-148 (All of which start with 't.extend'.) with one of the samples provided in the 'scenes.txt' file in the './examples' folder.
+
 ---
 
 What made my program interesting was the way it drew these images, it first constructed a 20x20 array (Framebuffer) with a one-to-one representation of the world's grids and then painted the world according to the array onto the world; it could even "upscale" the image array for larger worlds (Such as 40x40), this works just as a monitor in real life does. (Albeit slower, which is fair considering that it is running on an already-slow interpreted programming language like Python, implemented in a poorly-optimized JavaScript emulator, inside of a browser on top of the hardware.)
@@ -39,8 +41,6 @@ For the rest of the technical details, refer to the comments inside of the sourc
 ---
 
 You could also copy-paste the contents of the 'main.py' file in the './src' folder into CodeHS' editor in assignment number 2.1.10 ("Create your UltraKarel Image!") and see the rasterizer in action.
-
-In order to draw a different scene, simply replace the array on lines number 127-148 (All of which start with 't.extend'.) with one of the samples provided in the 'scenes.txt' file in the './examples' folder.
 
 
 The source code is idomatic Python with some minor syntactic modifications to work-around CodeHS' Python interpreter bugs & limitations.
