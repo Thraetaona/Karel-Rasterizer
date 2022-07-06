@@ -7,9 +7,9 @@
   </p>
   
   <h3>
-    <a href="https://codehs.com/sandbox/id/karel-rasterizer-flvHB4">Demo (With source)</a>
+    <a href="https://codehs.com/sandbox/thraetaona/karel-rasterizer">Demo (With source)</a>
     <span> | </span>
-    <a href="https://codehs.com/sandbox/id/karel-rasterizer-flvHB4/run">Demo (App)</a>
+    <a href="https://codehs.com/sandbox/thraetaona/karel-rasterizer/run">Demo (App)</a>
   </h3>
 
 </div>
@@ -25,8 +25,8 @@ It was designed to use [CodeHS](https://en.wikipedia.org/wiki/CodeHS)' Karel Pyt
 ### Demos:
 (Note: Make sure to set the speed to maximum when running the below demos.)
 
-[Online interactive demo (Edit-able source code)](https://codehs.com/sandbox/id/karel-rasterizer-flvHB4) \
-[Online demo (No source code)](https://codehs.com/sandbox/id/karel-rasterizer-flvHB4/run)
+[Online interactive demo (Edit-able source code)](https://codehs.com/sandbox/thraetaona/karel-rasterizer) \
+[Online demo (No source code)](https://codehs.com/sandbox/thraetaona/karel-rasterizer/run)
 
 In order to draw a different scene, simply replace the array on lines number 127-148 (All of which start with 't.extend'.) with one of the samples provided in the 'scenes.txt' file in the './examples' folder.
 
