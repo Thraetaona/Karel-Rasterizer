@@ -1,5 +1,5 @@
 # Karel Rasterizer: An image rasterizer written in Python using CodeHS' Karel API.
-# Copyright (C) 2020  Fereydoun Memarzanjany
+# Copyright (C) 2021  Fereydoun Memarzanjany
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
