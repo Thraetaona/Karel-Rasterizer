@@ -82,10 +82,3 @@ Some other scenes: <br />
   </sub>
 <br /> </p>
 
-<p align="center" text-align="center"> <br />
-  <img width="400" height="400" src="./docs/flag-of-iran.png?raw=true" />
-  <br />
-  <sub>
-    20x20 contemporary flag of Iran.
-  </sub>
-<br /> </p>
